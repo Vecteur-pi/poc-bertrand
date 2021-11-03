@@ -14,7 +14,7 @@ module.exports = {
     production: {
       user: 'ubuntu',
       host: '212.83.167.103',
-      ref: 'poc/master',
+      ref: 'origin/master',
       repo: 'https://github.com/Vecteur-pi/poc-bertrand.git',
       path: '/home/ubuntu/scaleway',
       'pre-deploy-local': '',
