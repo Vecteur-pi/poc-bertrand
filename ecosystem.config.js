@@ -15,10 +15,11 @@ module.exports = {
       user: 'ubuntu',
       host: '212.83.167.103',
       ref: 'poc/master',
-      repo: 'github.com:Vecteur-pi/poc-bertrand.git',
+      repo: 'https://github.com/Vecteur-pi/poc-bertrand.git',
       path: '/home/ubuntu/scaleway',
       'pre-deploy-local': '',
-      'post-deploy': 'npm install && pm2 reload dist/server --env production',
+      'post-deploy':
+        'npm install && pm2 reload ecosystem.config.js --env production',
       'pre-setup': '',
     },
   },
