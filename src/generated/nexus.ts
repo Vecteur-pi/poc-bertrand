@@ -4,7 +4,7 @@
  */
 
 
-import type { Context } from "./../context"
+import type { Context } from "./../context.js"
 import type { core } from "nexus"
 declare global {
   interface NexusGenCustomInputMethods<TypeName extends string> {
