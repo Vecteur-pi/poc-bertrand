@@ -4,10 +4,10 @@ module.exports = {
       script: 'dist/server.js',
       watch: '.',
     },
-    {
-      script: './service-worker/',
-      watch: ['./service-worker'],
-    },
+    // {
+    //   // script: './service-worker/',
+    //   // watch: ['./service-worker'],
+    // },
   ],
 
   deploy: {
