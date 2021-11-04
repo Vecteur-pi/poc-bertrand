@@ -12,11 +12,11 @@ module.exports = {
 
   deploy: {
     production: {
-      user: 'ubuntu',
-      host: '212.83.167.103',
+      user: 'root',
+      host: '51.158.71.99',
       ref: 'origin/master',
       repo: 'https://github.com/Vecteur-pi/poc-bertrand.git',
-      path: '/home/ubuntu/scaleway',
+      path: '/root/web_api',
       'pre-deploy-local': '',
       'post-deploy':
         'npm install && pm2 reload ecosystem.config.js --env production',
